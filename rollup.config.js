@@ -5,5 +5,9 @@ export default {
       file: 'dist/bundle.cjs.js',
       format: 'cjs',
     },
+    {
+      file: 'dist/bundle.es.js',
+      format: 'es',
+    },
   ],
 }

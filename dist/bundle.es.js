@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 // copy from https://github.com/isaacs/core-util-is
 // transform to ES6
 
@@ -160,27 +156,4 @@ function timeMDHm(input) {
   return 'inputNonTime'
 }
 
-exports.isArray = isArray;
-exports.isBoolean = isBoolean;
-exports.isNull = isNull;
-exports.isNullOrUndefined = isNullOrUndefined;
-exports.isNumber = isNumber;
-exports.isString = isString;
-exports.isSymbol = isSymbol;
-exports.isUndefined = isUndefined;
-exports.isRegExp = isRegExp;
-exports.isObject = isObject;
-exports.isDate = isDate;
-exports.isError = isError;
-exports.isFunction = isFunction;
-exports.isPrimitive = isPrimitive;
-exports.isBuffer = isBuffer;
-exports.listToMapByKeyValue = listToMapByKeyValue;
-exports.removeFromList = removeFromList;
-exports.prefix0 = prefix0;
-exports.dotn = dotn;
-exports.formatPrice = formatPrice;
-exports.formatTime = formatTime;
-exports.floorNumber = floorNumber;
-exports.ceilNumber = ceilNumber;
-exports.timeMDHm = timeMDHm;
+export { isArray, isBoolean, isNull, isNullOrUndefined, isNumber, isString, isSymbol, isUndefined, isRegExp, isObject, isDate, isError, isFunction, isPrimitive, isBuffer, listToMapByKeyValue, removeFromList, prefix0, dotn, formatPrice, formatTime, floorNumber, ceilNumber, timeMDHm };
