@@ -1,7 +1,7 @@
 {
   "name": "hdl-util",
   "version": "1.0.0",
-  "description": "",
+  "description": "平时收集的一些工具集, 主要是考虑精简, 并可以被 tree-shaking",
   "main": "dist/bundle.cjs.js",
   "jsnext:main": "src/index.js",
   "scripts": {
