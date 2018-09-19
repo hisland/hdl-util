@@ -69,10 +69,14 @@ export function floorNumber(input) {
   return typeof input === 'number' ? Math.floor(input) : input
 }
 
+export function ceilNumber(input) {
+  return typeof input === 'number' ? Math.ceil(input) : input
+}
+
 export function timeMDHm(input) {
   if (input) {
     const mm = moment(input)
     return mm.isValid() ? mm.format('MM-DD HH:mm') : input
   }
-  return 'no time'
+  return 'inputNonTime'
 }
