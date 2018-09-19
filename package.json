@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.cjs.js",
-  "jsnext:main": "src/main.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "compile": "rollup -c rollup.config.js"
@@ -13,6 +13,9 @@
   "author": "hisland",
   "license": "MIT",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0",
     "rollup": "^0.66.0"
   }
 }
